@@ -1,0 +1,39 @@
+Version 1.0 (2023/01/10)
+	-Initial release
+Version 1.1 (2023/01/13)
+	-Added opponent's move highlight
+	-Added taken piece by opponent indicator
+	-Added game termination GUI
+	-Added match PGN saving (server side)
+	-Fixed clicking out of bounds of game board
+	-Game status indicator is now human readable
+	-Minor gui adjustments
+Version 1.2 (2023/01/24)
+	-Added leave game button
+	-Added creating/joining game error handling
+	-Fixed crash on entering invalid IP
+	-Fixed crash on both sides when somebody closed the game window
+	-Rewritten networking code
+Version 1.3 (2023/01/25)
+	-Added presets for creating and joining games
+	-Added preset GUI
+	-Added possibility to resign game
+	-Added resign button
+	-Adjusted tile coloring (brightened)
+	-Changed assets directory structure
+	-Fixed game crash when 'matches' directory doesn't exist
+	-Fixed server socket not closing properly
+	-Improved creating/joining game error handling
+Version 1.4 (2023/01/25)
+	-Added favicon
+	-Added option to right click to cancel piece selection
+	-Added about GUI
+	-Fixed pieces not deselecting after a move
+Version 1.5 (2023/03/24)
+	-Added sounds
+	-Added labels for files and ranks
+	-Added taken pieces display (list of icons)
+	-IP entry now accepts hostnames (previously only IP adresses)
+	-Changed status 'Waiting for players!' to 'Waiting for opponent!'
+	-Improved menu GUI
+	-Minor gui adjustments
